@@ -2,6 +2,7 @@ import Counter from "./Counter";
 import Documentation from "./Documentation";
 import Hero from "./Hero";
 import Social from "./Social";
+import Tasks from "./Tasks";
 
 export default function Section() {
   console.log("Section component rendered");
@@ -16,6 +17,12 @@ export default function Section() {
           </p>
         </div>
         <Counter />
+      </section>
+
+      <div className="ticks"></div>
+
+      <section id="tasks">
+        <Tasks />
       </section>
 
       <div className="ticks"></div>
